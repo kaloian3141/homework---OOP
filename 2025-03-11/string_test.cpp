@@ -1,5 +1,5 @@
 #define CATCH_CONFIG_MAIN
-#include "catch2.hpp"
+#include "../catch2/catch2.hpp"
 #include "string.cpp"
 
 TEST_CASE("Copy constructor functionality", "[String]")

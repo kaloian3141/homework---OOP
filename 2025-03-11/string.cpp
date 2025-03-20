@@ -40,7 +40,7 @@ public:
             this->data[i] = other.data[i];
         }
     }
-
+    
     String &operator=(const String &other)
     {
         if(this != &other)
